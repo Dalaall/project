@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .hr-style {
+    border: none;
+    border-top: 2px solid black;
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 26px;
+        }
+        .auto-style3 {
+            width: 198px;
+            height: 115px;
+        }
+        .auto-style4 {
+            height: 26px;
+            width: 1310px;
+        }
+    }
+        .auto-style1 {
+            width: 319px;
+            height: 119px;
+        }
+        .auto-style2 {
+            width: 1325px;
+            height: 119px;
+        }
+        .auto-style3 {
+            width: 1325px;
+            height: 119px;
+            text-align: center;
+        }
+        .auto-style4 {
+            height: 119px;
+        }
+        .auto-style5 {
+            width: 37px;
+            height: 33px;
+        }
+        
+        .auto-style6 {
+            text-align: center;
+        }
+        .auto-style7 {
+            text-align: left;
+        }
+    </style>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            var accountLists = document.getElementsByClassName("account-list");
+
+            Array.prototype.forEach.call(accountLists, function (accountList) {
+                var overlay = accountList.querySelector(".overlay");
+
+                accountList.addEventListener("mouseenter", function () {
+                    overlay.style.display = "block";
+                });
+
+                accountList.addEventListener("mouseleave", function () {
+                    overlay.style.display = "none";
+                });
+            });
+        });
+    </script>
+
+
+    </style>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <form id="form1" runat="server" style="width: 100%">
+        <div class="auto-style6">
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style4">
+                    <img alt="logo" class="auto-style1" src="NewFolder1/logo.png" /></td>
+                <td class="auto-style3">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2><em>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink1" runat="server">About Us</asp:HyperLink>
+
+                        </em></h2>
+
+                </td>
+                <td class="auto-style3">
+                 <nav id="account-nav"><img src="NewFolder1/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg" id="account-img" class="auto-style5">
+                            <ul>
+                                
+                                <li class="account-list">Profile</a></li>
+                                <li class="account-list">Category</a>
+                                    <ul class="overlay">
+                                        <li class="account-list">Car Plate</a></li>
+                                        <li class="account-list">Truck Plate</a></li>
+                                        <li class="account-list">Motorcycle Plate</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="account-list">Log Out</a></li>
+                            </ul>
+
+                        </nav>
+                    </script>
+                 
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4" colspan="3">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <div class="auto-style7"><hr class="auto-style26" />
+                <div class="auto-style7">
+                <br />
+                <asp:Label ID="Label1" runat="server" Text="Email support:"></asp:Label>
+                <br />
+                <asp:Label ID="Label2" runat="server" Text="Care@PlateAuction.com"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label3" runat="server" Text="Copyright© 2024 Plate Auction. All rights reserved."></asp:Label>
+ <br /></td>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
