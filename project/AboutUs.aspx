@@ -55,7 +55,7 @@
            
                
                 <td class="auto-style2"> 
-                    <img class="auto-style17" src="NewFolder1/aboutus.jpg" /></td> 
+                    <img class="auto-style17" src="img/aboutus.jpg" /></td> 
                 <td class="auto-style7"><strong><span class="auto-style4">&nbsp;&nbsp;&nbsp; 
                     <br /> 
 &nbsp;&nbsp;&nbsp;&nbsp; </span><span class="auto-style8">About us </span><span class="auto-style4"> 

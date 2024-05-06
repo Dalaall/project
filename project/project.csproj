@@ -68,27 +68,38 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="account2.aspx" />
+    <Content Include="admin.aspx" />
+    <Content Include="admin2.aspx" />
+    <Content Include="admincss.css" />
     <Content Include="App_Data\PlateDB.mdf" />
     <Content Include="App_Data\PlateDB_log.ldf">
       <DependentUpon>PlateDB.mdf</DependentUpon>
     </Content>
-    <Content Include="CreatAccount.aspx" />
+    <Content Include="CarPlate.aspx" />
+    <Content Include="Category.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="img\50f9ccd898338-555x512.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="NewFolder1\262038.png" />
-    <Content Include="NewFolder1\kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-29-33.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-30-13.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-30-22.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-30-34.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-30-43.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-30-53.jpg" />
-    <Content Include="NewFolder1\PHOTO-2024-04-06-08-31-03.jpg" />
-    <Content Include="NewFolder1\logo.png" />
+    <Content Include="img\262038.png" />
+    <Content Include="img\kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-29-33.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-30-13.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-30-22.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-30-34.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-30-43.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-30-53.jpg" />
+    <Content Include="img\PHOTO-2024-04-06-08-31-03.jpg" />
+    <Content Include="img\logo.png" />
     <Content Include="..\..\..\..\OneDrive\Desktop\sh\StyleSheet1.css">
       <Link>StyleSheet1.css</Link>
     </Content>
-    <Content Include="NewFolder1\aboutus.jpg" />
+    <Content Include="img\aboutus.jpg" />
+    <Content Include="Product.aspx" />
+    <Content Include="ProductPage.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="TruckPlate.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -100,12 +111,47 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CreatAccount.aspx.cs">
-      <DependentUpon>CreatAccount.aspx</DependentUpon>
+    <Compile Include="account2.aspx.cs">
+      <DependentUpon>account2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CreatAccount.aspx.designer.cs">
-      <DependentUpon>CreatAccount.aspx</DependentUpon>
+    <Compile Include="account2.aspx.designer.cs">
+      <DependentUpon>account2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin2.aspx.cs">
+      <DependentUpon>admin2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin2.aspx.designer.cs">
+      <DependentUpon>admin2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CarPlate.aspx.cs">
+      <DependentUpon>CarPlate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CarPlate.aspx.designer.cs">
+      <DependentUpon>CarPlate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -124,7 +170,35 @@
     <Compile Include="masterpageauction.Master.designer.cs">
       <DependentUpon>masterpageauction.Master</DependentUpon>
     </Compile>
+    <Compile Include="Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPage.aspx.cs">
+      <DependentUpon>ProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductPage.aspx.designer.cs">
+      <DependentUpon>ProductPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TruckPlate.aspx.cs">
+      <DependentUpon>TruckPlate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TruckPlate.aspx.designer.cs">
+      <DependentUpon>TruckPlate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

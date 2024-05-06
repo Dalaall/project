@@ -29,6 +29,7 @@
         }
     }
         .auto-style1 {
+            border-width: 0px;
             width: 319px;
             height: 119px;
         }
@@ -97,7 +98,8 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style4">
-                    <img alt="logo" class="auto-style1" src="NewFolder1/logo.png" /></td>
+                    <a href="HomePage.aspx">
+                    <img alt="logo" class="auto-style1" src="img/logo.png" /></a></td>
                 <td class="auto-style3">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2><em>&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="Black" NavigateUrl="~/AboutUs.aspx">About Us</asp:HyperLink>
@@ -106,10 +108,11 @@
 
                 </td>
                 <td class="auto-style3">
-                 <nav id="account-nav"><img src="NewFolder1/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg" id="account-img" class="auto-style5">
+                 <nav id="account-nav"><img src="img/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg" id="account-img" class="auto-style5">
                             <ul>
                                 
-                                <li class="account-list">Profile</a></li>
+                                <li class="account-list">Profile<a href="Profile.aspx"></a></li>
+                                <li class="account-list">Log Out<a href="HomePage.aspx"></a>
                                 <li class="account-list">Category</a>
                                     <ul class="overlay">
                                         <li class="account-list">Car Plate</a></li>
@@ -118,7 +121,8 @@
 
                                     </ul>
                                 </li>
-                                <li class="account-list">Log Out</a></li>
+                 
+                                 <li class="account-list"><a href="HomePage.aspx"></a></li>
                             </ul>
 
                         </nav>
