@@ -111,8 +111,8 @@
                  <nav id="account-nav"><img src="img/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg" id="account-img" class="auto-style5">
                             <ul>
                                 
-                                <li class="account-list">Profile<a href="Profile.aspx"></a></li>
-                                <li class="account-list">Log Out<a href="HomePage.aspx"></a>
+                                <li class="account-list"> <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="white" NavigateUrl="~/Profile.aspx">Profile</asp:HyperLink></li>
+                                <li class="account-list"> <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="white" NavigateUrl="~/HomePage.aspx">Logout</asp:HyperLink></li>
                                 <li class="account-list">Category</a>
                                     <ul class="overlay">
                                         <li class="account-list">Car Plate</a></li>

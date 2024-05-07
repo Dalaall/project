@@ -97,7 +97,9 @@
     <tr>
         <td class="auto-style2">&nbsp;</td>
         <td class="auto-style3">
-            <asp:Button ID="Button1" runat="server" Text="login" CssClass="submit-button" Height="55px" Width="156px" />
+            <asp:Button ID="Button1" runat="server" Text="login" CssClass="submit-button" Height="55px" Width="156px" OnClick="Button1_Click" />
+            <br />
+            <asp:Label ID="Label4" runat="server" Text="Label" Visible="False"></asp:Label>
         </td>
         <td class="auto-style4">&nbsp;</td>
     </tr>

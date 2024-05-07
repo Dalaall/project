@@ -195,8 +195,9 @@
         }
 
         .auto-style60 {
-            width: 343px;
-            height: 153px;
+            border-width: 0px;
+            width: 69%;
+            height: 162px;
         }
 
     </style>
@@ -208,7 +209,8 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style7">
-                    <img alt="logo" class="auto-style60" src="NewFolder1/logo.png" /></td>
+                    <a href="HomePage.aspx">
+                    <img alt="logo" class="auto-style60" src="img/logo.png" /></a></td>
                 <td class="auto-style5">
                     <h2>Create Account</h2>
                     <p class="auto-style6">

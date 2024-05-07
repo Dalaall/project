@@ -33,5 +33,20 @@ namespace project
         {
 
         }
+
+        protected void DataList1_SelectedIndexChanged3(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void DataList2_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            SqlDataSource2.Insert();
+        }
     }
 }
